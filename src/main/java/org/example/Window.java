@@ -4,8 +4,7 @@ import org.example.model.User;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Window extends JFrame {
     private final UserList userList=new UserList();
