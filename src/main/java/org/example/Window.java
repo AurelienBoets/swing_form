@@ -8,12 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Window extends JFrame {
-    private static final List<User> users=new ArrayList<>();
     private final UserList userList=new UserList();
     private final Form form;
 
     public void addUser(User user){
-        users.add(user);
         userList.addData(user);
     }
     public Window(){
